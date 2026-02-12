@@ -5,7 +5,7 @@ import { ThemeProvider } from "./components/theme-provider";
 
 export function App() {
   return (
-    <ThemeProvider defaultTheme="dark" storageKey="react-starter-theme">
+    <ThemeProvider defaultTheme="dark" storageKey="motion-starter-theme">
       <Navbar />
       <Container className="py-2">
         <Component />
